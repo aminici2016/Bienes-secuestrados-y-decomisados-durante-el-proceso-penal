@@ -59,7 +59,15 @@ Recursos disponibles
 
 -   **tipo_delito (string):** describe el tipo de delito que se sustancia en el marco de un proceso penal
 
--   **medida (string):** tipo de medida. Consiste en la medida adoptada por la autoridad interviniente en el marco del proceso penal. Pueden ser: afectado a medida cautelar – Embargo, afectado a otra medida, decomiso o secuestro
+-   **medida (string):** tipo de medida. Consiste en la medida adoptada por la autoridad interviniente en el marco del proceso penal. Puede tomar los valores:
+
+    -   2 - Afectado a medida cautelar – Embargos / Inhibiciones
+
+    -   3 - Afectado a otra medida
+ 
+    -   4 - Decomiso
+ 
+    -   5 - Secuestro
 
 -   **fecha_recepcion (date):** fecha de recepción del oficio por el Registro Nacional de Bienes Secuestrados y Decomisados durante el Proceso Penal
 
